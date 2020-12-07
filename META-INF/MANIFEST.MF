@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Asyn Shutdown
+Bundle-SymbolicName: vn.hieplq.asynshutdown;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: vn.hieplq.asynshutdown
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: org.eclipse.equinox.app;version="1.1.0",
+ org.osgi.framework;version="1.10.0"
+Bundle-ActivationPolicy: lazy
